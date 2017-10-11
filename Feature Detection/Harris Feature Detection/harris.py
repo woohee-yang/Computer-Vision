@@ -14,8 +14,8 @@ img = cv2.imread("st_paul.jpg", 0)
 # cv2.imshow("harris", list(harrisCorners)[1])
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-pts = [[0 for j in range(2)] for i in range(10000)]
-print(pts)
+# pts = [[0 for j in range(2)] for i in range(10000)]
+# print(pts)
 
 harris = har.HarrisDetector()
 harris.detect(img)
