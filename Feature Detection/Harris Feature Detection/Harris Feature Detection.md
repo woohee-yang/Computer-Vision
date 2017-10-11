@@ -59,3 +59,4 @@ but 계산이 복잡하니 테일러 정리를 이용한다. 또한, x,y 모든 
     일차결합으로 표현될 수 없으면 이 벡터들을 서로 일차독립이라고 정의한다.</br>
     ->> n차원 공간은 최대 n개의 일차독립인 벡터들을 가질 수 있으며, n개의 일차독립인 벡터들은 이 공간을
     생성하는 **기저(basis)** 역할을 수행
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum&space;\prod&space;\mathbf{x}&space;\AE&space;\angle&space;23&space;\Gamma" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum&space;\prod&space;\mathbf{x}&space;\AE&space;\angle&space;23&space;\Gamma" title="\sum \prod \mathbf{x} \AE \angle 23 \Gamma" /></a>
