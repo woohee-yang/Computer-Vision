@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 # Harris Corner Detector :
 ***
  - 해리스 특징 검출기는 영상에 있는 코너 개념을 정의하기 위해 추정되는 관심점 주변의 작은 윈도우(지역) 에서 방형성 명도의 평균 변화를 살펴본다. 평균 변화는 R ~= sum(I(이웃점) - I(현재위치))^2 로 정의
@@ -51,7 +49,6 @@ but 계산이 복잡하니 테일러 정리를 이용한다. 또한, x,y 모든 
     ```
     AP = PΛ
     A = PΛP-1
-    \\( x(t)=\frac{-b\pm \sqrt{{b}^{2}-4ac}}{2a} \\)
     ```
     대각화를 하는 이유는 행렬식, 거듭제곱, 역행렬, 대각합 등을 손쉽게 연산할 수 있기 때문이다.
 
